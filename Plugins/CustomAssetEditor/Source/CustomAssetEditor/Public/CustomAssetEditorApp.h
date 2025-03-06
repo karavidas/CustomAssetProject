@@ -15,7 +15,7 @@ public: // FAssetEditorToolkit interface
 	virtual FText GetBaseToolkitName() const override { return FText::FromString(TEXT("CustomAssetEditorApp")); }
 	virtual FString GetWorldCentricTabPrefix() const override { return TEXT("CustomAssetEditorApp"); }
 	virtual FLinearColor GetWorldCentricTabColorScale() const override { return FLinearColor(0.3f, 0.2f, 0.5f, 0.5f); }
-	virtual FString GetDocumentationLink() const override { return TEXT("https://github.com/kirby561"); }
+	virtual FString GetDocumentationLink() const override { return TEXT("The link to the documentation for the custom asset editor"); }
 	virtual void OnToolkitHostingStarted(const TSharedRef<class IToolkit>& Toolkit) override { }
 	virtual void OnToolkitHostingFinished(const TSharedRef<class IToolkit>& Toolkit) override { }
 
